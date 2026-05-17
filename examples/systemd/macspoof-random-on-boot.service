@@ -1,0 +1,12 @@
+[Unit]
+Description=Randomize MAC address on boot
+After=network-pre.target
+Wants=network-pre.target
+
+[Service]
+Type=oneshot
+Environment=MACSPOOF_STATE_DIR=/var/lib/macspoof
+ExecStart=/absolute/path/to/macspoof.sh random en0
+
+[Install]
+WantedBy=multi-user.target
