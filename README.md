@@ -151,7 +151,3 @@ MAC changes are usually temporary. They can reset after reboot, adapter restart,
 Use only on devices and networks you own or have permission to test. Do not use MAC spoofing to bypass authentication, bans, access controls, or network policy.
 
 You are responsible for how you use this software. The authors and contributors are not responsible for network disruption, policy violations, damages, or misuse.
-
-## License
-
-Unlicense. See [LICENSE](LICENSE).
